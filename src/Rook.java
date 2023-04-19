@@ -1,3 +1,3 @@
-public class Rooks extends Piece {
+public class Rook extends Piece {
     
 }

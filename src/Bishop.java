@@ -1,3 +1,3 @@
-public class Bishops extends Piece {
+public class Bishop extends Piece {
     
 }

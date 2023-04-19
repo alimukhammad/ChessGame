@@ -50,6 +50,7 @@ public class King extends Piece {
   
     public boolean isCastlingMove(Spot start, Spot end)
     {
+        return ;
         // check if the starting and 
         // ending position are correct
     }
