@@ -1,3 +1,5 @@
+// Board: To represent a chess board:
+
 public class Board {
 	Spot[][] boxes;
 
