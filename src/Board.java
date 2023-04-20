@@ -12,7 +12,12 @@ public class Board {
 	{
 
 		if (x < 0 || x > 7 || y < 0 || y > 7) {
-			throw new Exception("Index out of bound");
+			try {
+				throw new Exception("Index out of bound");
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 
 		return boxes[x][y];
