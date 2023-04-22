@@ -18,7 +18,7 @@ public class Move {
 	{
 		return this.castlingMove;
 	}
-    
+
 	public void setCastlingMove(boolean castlingMove)
 	{
 		this.castlingMove = castlingMove;

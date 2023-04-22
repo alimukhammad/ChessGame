@@ -30,8 +30,8 @@ public class Board {
 		boxes[0][1] = new Spot(0, 1, new Knight(true));
 		boxes[0][2] = new Spot(0, 2, new Bishop(true));
 		//...
-		boxes[1][0] = new Spot(1, 0, new Pawn(true));
-		boxes[1][1] = new Spot(1, 1, new Pawn(true));
+		boxes[1][0] = new Spot(1, 0, new Pawns(true));
+		boxes[1][1] = new Spot(1, 1, new Pawns(true));
 		//...
 
 		// initialize black pieces
@@ -39,8 +39,8 @@ public class Board {
 		boxes[7][1] = new Spot(7, 1, new Knight(false));
 		boxes[7][2] = new Spot(7, 2, new Bishop(false));
 		//...
-		boxes[6][0] = new Spot(6, 0, new Pawn(false));
-		boxes[6][1] = new Spot(6, 1, new Pawn(false));
+		boxes[6][0] = new Spot(6, 0, new Pawns(false));
+		boxes[6][1] = new Spot(6, 1, new Pawns(false));
 		//...
 
 		// initialize remaining boxes without any piece
